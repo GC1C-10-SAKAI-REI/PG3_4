@@ -19,6 +19,5 @@ int main()
 		printf("%d\n", b[i]);
 	}
 
-	system("pause");
 	return 0;
 }
