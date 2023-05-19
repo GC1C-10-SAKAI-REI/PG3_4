@@ -4,12 +4,13 @@ using namespace std;
 
 int main()
 {
+	//要素数0のint型vector
 	vector<int>d;
 
-	//要素数を10個に変更
+	//要素数を10個に変更(resize)
 	d.resize(10);
 
-	//要素数を取得
+	//要素数を取得(size)
 	int size = d.size();
 
 	for (int i = 0; i < size; i++)
